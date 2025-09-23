@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #e65100, #ff9800);
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Welcome Section */
+.welcome-section {
+  margin-top: 60px;
+  text-align: center;
+  background-image: url('bg.webp'); /* path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 20px; /* increase padding to show full image */
+  color: white; /* text color to contrast */
+}
+
+.welcome-section h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #fff; /* white text */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.welcome-section p {
+  font-size: 1.2em;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+/* Search Bar adjustments on background */
+.search-bar input {
+  background: rgba(255,255,255,0.9);
+}
+.search-bar button {
+  background: #ff9800;
+}
+
+/* Search Bar */
+.search-bar {
+  margin-top: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.search-bar input {
+  padding: 12px 50px 12px 20px;
+  width: 320px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  outline: none;
+  transition: 0.3s;
+}
+
+.search-bar input:focus {
+  border-color: #ff9800;
+  box-shadow: 0 0 5px rgba(255, 152, 0, 0.5);
+}
+
+.search-bar button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: #ff9800;
+  color: white;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-bar button:hover {
+  background: #e65100;
+}
+
+/* Footer */
+footer .highlight {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ff9800;   /* orange highlight */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  font-size: 1.1em;
+}
